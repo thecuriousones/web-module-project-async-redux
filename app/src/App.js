@@ -4,6 +4,7 @@ import './App.css';
 import Quote from './components/Quote';
 import SearchForm from './components/searchForm';
 import CharacterCard from './components/characterCard';
+import Header from './components/header';
 
 
 
@@ -44,6 +45,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+      <Header />
       <h1 className='title'>BEST ANIME QUOTES</h1>
       <Quote />
       <SearchForm fetchQuotes={this.fetchQuotes}/>
