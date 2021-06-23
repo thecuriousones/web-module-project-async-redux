@@ -11,8 +11,8 @@ const Quote = (props) => {
   }
   return (
     <>
-      <h2>Anime Quote of the Day: {props.quote}</h2>
-      <button onClick={props.fetchQuote} >Find New Inspiration</button>
+      <h2 className='sub-title'>Anime Quote of the Day: {props.quote}</h2>
+      <button className='button' onClick={props.fetchQuote} >Find New Inspiration</button>
     </>
   )
 }

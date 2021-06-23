@@ -44,7 +44,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-      <h1>BEST ANIME QUOTES</h1>
+      <h1 className='title'>BEST ANIME QUOTES</h1>
       <Quote />
       <SearchForm fetchQuotes={this.fetchQuotes}/>
       <CharacterCard characters={this.state.quotes}/>

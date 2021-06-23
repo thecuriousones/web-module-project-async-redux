@@ -11,8 +11,10 @@ class CharacterCard extends React.Component {
                                 <div className='mc-mini-section-container'>
                                     <div className='mc-mini-section'>
                                         <p className='mc-class-info'> Quote: {data.quote}</p>
-                                        <p className='mc-class-info-2'> - {data.character}</p>
-                                        <p className='mc-class-info-3'> - {data.anime}</p>
+                                        <div className='bottom-line'>
+                                            <p className='mc-class-info-2'> - Character: {data.character}</p>
+                                            <p className='mc-class-info-3'style={{marginLeft: '5rem'}}> - Anime: {data.anime}</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
