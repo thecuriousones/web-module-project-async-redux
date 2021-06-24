@@ -13,7 +13,8 @@ const Quote = (props) => {
   }
   return (
     <>
-      <h2 className='sub-title'>Anime Quote of the Day: {props.quote}</h2>
+      <h2 className='sub-title' style={{marginBottom: '1rem', marginLeft: '17.5rem'}}>Anime Quote of the Day: </h2>
+      <h2>{props.quote}</h2>
       <h3>- {props.character}</h3>
       <button className='button' onClick={props.fetchQuote} >Find New Inspiration</button>
 

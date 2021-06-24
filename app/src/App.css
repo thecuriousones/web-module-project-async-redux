@@ -16,7 +16,7 @@ body {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: 'Bebas Neue', cursive;
   text-decoration: underline;
 }
@@ -47,7 +47,6 @@ input {
   text-align: center;
   border: 2px solid black;
   padding: 14px 10px;
-  width: 200px;
   outline: none;
   color: black;
   border-radius: .5rem;
