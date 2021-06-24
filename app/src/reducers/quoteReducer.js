@@ -2,7 +2,7 @@ import { FETCH_QUOTE_HAPPY, FETCH_QUOTE_START } from "../actions/quoteActions";
 
 
 const initialState = {
-    quote: 'Initial test anime quote',
+    quote: [],
     loading: false,
     error: '',
     character: ''
@@ -25,3 +25,4 @@ export const quoteReducer = (state = initialState, action) => {
             return state;
     }
 }
+

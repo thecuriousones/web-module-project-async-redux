@@ -7,7 +7,7 @@ export const fetchQuote = () => (dispatch) => {
   dispatch({ type: FETCH_QUOTE_START }); 
   axios.get("https://animechan.vercel.app/api/random")
     .then(res => {
-      dispatch({ type: FETCH_QUOTE_HAPPY, payload: res.data.quote});
+      dispatch({ type: FETCH_QUOTE_HAPPY, payload: res.data});
     })
   .catch(err => {
     console.log(err);
